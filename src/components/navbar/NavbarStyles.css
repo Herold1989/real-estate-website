@@ -6,6 +6,7 @@
     align-items: center;
     padding: 0 1rem;
     z-index: 2;
+    position: absolute;
 }
 
 .nav-menu {
