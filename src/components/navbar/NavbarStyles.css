@@ -17,7 +17,7 @@
 
 .nav-menu li:hover {
     padding-bottom: 12px;
-    border-bottom: 2.5px solid black;
+    border-bottom: 2.5px solid whitesmoke;
 }
 
 li {
@@ -29,9 +29,15 @@ li {
 }
 
 .icon{
-    font-size: 1.5rem;
     cursor: pointer;
 }
+
+select {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
 
 .hamburger {
     display: none;
@@ -44,11 +50,12 @@ li {
         display: none;
     }
 
-    .cellular {
+    .nav-icons {
         display: none;
     }
 
     .hamburger {
+        font-size: 1.3rem;
         display: block;
     }
 
@@ -100,5 +107,6 @@ li {
 
     .dark {
         color: #000;
+        font-size: 1.3rem;
     }
 }
