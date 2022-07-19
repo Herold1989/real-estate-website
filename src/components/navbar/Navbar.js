@@ -30,7 +30,9 @@ function Navbar() {
                         <option value="1">EN</option>
                         <option value="2">PT</option>
                     </select>
-                <AiOutlinePhone className='icon' />
+                    <a href="tel: +1-234-567-8910">
+                            <AiOutlinePhone className='icon'/>
+                    </a>
             </div>
 
             <div className={nav ? 'hamburger dark' : 'hamburger'} onClick={handleNav}>

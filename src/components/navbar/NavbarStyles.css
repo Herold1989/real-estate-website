@@ -10,6 +10,11 @@
     color: #fff;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav-menu {
     display: flex;
 
@@ -100,11 +105,6 @@ select {
         justify-content: space-evenly;
     }
     
-    a{
-        text-decoration: none;
-        color: inherit;
-    }
-
     .social-icons .icon:hover {
         transform: scale(1.5);
         transition: 0.3s;
