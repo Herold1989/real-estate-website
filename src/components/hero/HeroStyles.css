@@ -20,7 +20,7 @@ img {
     height: 100%;
     object-fit: cover;
     z-index: 3;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .hero .content {
@@ -55,6 +55,12 @@ img {
 
 @media screen and (max-width: 940px) {
 
-
+    .hero .content {
+        text-align: center;
+    }
     
+    img {
+
+        opacity: 0.95;
+    }
 }
