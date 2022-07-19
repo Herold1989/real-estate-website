@@ -7,6 +7,7 @@
     padding: 0 1rem;
     z-index: 2;
     position: absolute;
+    color: #fff;
 }
 
 .nav-menu {
@@ -61,6 +62,8 @@ li {
         justify-content: space-between;
         background-color: whitesmoke;
         transition: 0.3s;
+        color: #000;
+
     }
 
     .active {
@@ -93,5 +96,9 @@ li {
     .social-icons .icon:hover {
         transform: scale(1.5);
         transition: 0.3s;
+    }
+
+    .dark {
+        color: #000;
     }
 }

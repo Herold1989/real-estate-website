@@ -13,9 +13,8 @@ function Navbar() {
     const handleNav = () => setNav(!nav)
 
     return (
-        <div className="navbar">
-
-            <div className="logo">
+        <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
+            <div className={nav ? 'logo dark' : 'logo'}>
                 <h2>ESTEVES REAL ESTATE.</h2>
             </div>
 
@@ -29,8 +28,8 @@ function Navbar() {
 
             <div className="cellular">CALL ME: +1234-567-8910</div>
             
-            <div className='hamburger' onClick={handleNav}>
-                {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : <AiOutlineClose className='icon' />}
+            <div className={nav ? 'hamburger dark' : 'hamburger'} onClick={handleNav}>
+                {!nav ? (<HiOutlineMenuAlt4 className='icon' />): <AiOutlineClose className='icon' />}
             </div>
 
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
