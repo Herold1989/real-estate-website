@@ -31,10 +31,26 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
     margin: auto;
-    padding: 1rem;
+    padding: 4rem;
+}
+
+.hero .button {
+    margin: 1rem 0;
+    width: 225px;
+    padding: .375rem 0.75rem;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.hero .button:hover {
+    opacity: 0.85;
 }
 
 @media screen and (max-width: 940px) {
