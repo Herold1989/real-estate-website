@@ -28,10 +28,7 @@ function Navbar() {
             </ul>
 
             <div className="cellular">CALL ME: +1234-567-8910</div>
-
-            {/* <div className='hamburger' onClick={handleNav}>
-                 <HiOutlineMenuAlt4 className='icon' />
-             </div> */}
+            
             <div className='hamburger' onClick={handleNav}>
                 {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : <AiOutlineClose className='icon' />}
             </div>
