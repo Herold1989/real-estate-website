@@ -13,7 +13,7 @@ function Hero() {
                     <h1>FIND YOUR PLACE</h1>
                     <h2 style={{ padding: '1rem' }}>To Come Home To At Night.</h2>
                     <button className='button'>
-                        <a href="mailto: alberto@estevesinc.com">Find out more</a></button>
+                        <a href="mailto: alberto@estevesinc.com?subject=I'd like to know more about your projects!">Find out more</a></button>
                 </div>
             </div>
         </div>
