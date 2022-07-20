@@ -17,14 +17,6 @@
     align-items: center;
 }
 
-.about .box {
-    display: flex;
-    max-width: 310px;
-    align-items: center;
-    margin: auto;   
-    text-align: center;
-}
-
 .right{
     display: flex;
     flex-direction: column;
