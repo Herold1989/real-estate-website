@@ -26,6 +26,11 @@
    color: var(--primary-light);
 }
 
+.footer .icon:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
 .footer .left, .right {
     display: flex;
     align-items: center;
