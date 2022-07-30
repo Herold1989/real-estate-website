@@ -6,11 +6,12 @@
     flex-direction: column;
     justify-content: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
   
-  /* .form > h1 {
+  .form > h1 {
     margin-bottom: 30px;
-  } */
+  }
   
   .form > input,
   textarea {
@@ -56,6 +57,7 @@
     transition: 0.2s ease-in-out;
     margin-top: 10px;
   }
+
   
   .form > button:hover {
     background-color: rgb(0, 0, 196);
