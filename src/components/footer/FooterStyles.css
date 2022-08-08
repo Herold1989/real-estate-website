@@ -48,4 +48,8 @@
     .footer ul {
         flex-direction: column;
     }
+
+    .footer h3 {
+        font-size: 0.5rem
+    }
 }

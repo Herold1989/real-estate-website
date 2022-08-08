@@ -1,0 +1,23 @@
+.gallery {
+    width: 100%;
+    padding: 2rem 0;
+
+}
+
+.header {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.header p{
+    font-size: 1.25rem
+}
+
+.gallery img {
+    height: 90vh;
+    object-fit: cover;
+}
+
+.thumbs-wrapper, .gallery-status {
+    display: none;
+}
