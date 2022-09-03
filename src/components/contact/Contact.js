@@ -38,7 +38,7 @@ const Contact = () => {
       <form className='form' onSubmit={handleSubmit}>
 
 
-        <h2>Contact Form ✉️</h2>
+        <h2>Book a Visit ✉️</h2>
         <label>Name</label>
         <input
           placeholder="Name"

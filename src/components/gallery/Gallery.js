@@ -14,7 +14,7 @@ function ImgGallery() {
         <div name='gallery' className='container'>
             <div className='header'>
                 <h1>Project Gallery</h1>
-                <p>Check out our exciting projects</p>
+                <p>Check out our exciting projects for sale!</p>
             </div>
             <Carousel className='gallery' showArrows={true} autoPlay={true} infiniteLoop={true} >
                 <div>

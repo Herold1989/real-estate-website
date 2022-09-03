@@ -3,7 +3,7 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose, AiOutlinePhone} from 'react-icons/ai'
 import { FaInstagram } from 'react-icons/fa'
 
-
+import {Link} from 'react-scroll'
 
 import './NavbarStyles.css'
 
@@ -19,11 +19,11 @@ function Navbar() {
             </div>
 
             <ul className="nav-menu">
-                <li>HOME</li>
-                <li>DEVELOPING</li>
-                <li>GALLERY</li>
-                <li>BOOK A VISIT</li>
-                <li>CONTACT</li>
+            <Link to='home' smooth ={true} duration={500}> <li>HOME</li></Link>
+            <Link to='developing' smooth ={true} duration={500}> <li>DEVELOPING</li></Link>
+            <Link to='gallery' smooth ={true} duration={500}> <li>GALLERY</li></Link>
+            <Link to='form' smooth ={true} duration={500}> <li>BOOK A VISIT</li></Link>
+            <Link to='footer' smooth ={true} duration={500}> <li>CONTACT</li></Link>
             </ul>
             <div className='nav-icons'>
                     <select className='icon' style={{marginRight: '1rem'}}>
